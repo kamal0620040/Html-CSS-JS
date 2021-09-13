@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: "Inter", sans-serif;
+    color: #343a40;
+    line-height: 1;
+}
+
+.pagination{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.pagination a{
+    height: 36px;
+    width: 36px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #212529;
+}
+
+.pagination a:hover{
+    background-color: teal;
+    border: 1px solid teal;
+    border-radius: 50%;
+    color: white;
+}
+
+.icon:hover{
+    background-color: teal;
+    color: white;
+}
