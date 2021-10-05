@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.dropdown{
+    font-family: 'Montserrat',sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+
+.drop-down-btn{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 15px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.drop-down-btn:active{
+    scale: 0.9;
+}
+
+.dropdown li{
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    list-style-type: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown li:hover{
+    color: white;
+    background-color: rgb(74, 74, 214);
+}
+
+.options{
+    position: absolute;
+    margin-top: 5px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.hide-it{
+    display: none;
+}
